@@ -1,6 +1,6 @@
 {
-  "name": "planets",
-  "version": "0.0.1",
+  "name": "electron-react-webpack",
+  "version": "0.1.0",
   "description": "",
   "main": "main.js",
   "scripts": {
