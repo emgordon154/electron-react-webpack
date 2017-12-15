@@ -1,28 +1,32 @@
 {
-  "name": "electron-react-webpack",
-  "version": "1.0.0",
-  "description": "Electron + React + Webpack 2 seed.",
+  "name": "planets",
+  "version": "0.0.1",
+  "description": "",
   "main": "main.js",
   "scripts": {
     "dev": "webpack",
     "start": "electron ."
   },
-  "author": "J. Renato Ramos González <renato.etc.etc.etc@gmail.com>",
-  "repository": "pastahito/electron-react-webpack",
-  "license": "WTFPL",
+  "author": "Emily Gordon",
+  "repository": "",
+  "license": "",
   "devDependencies": {
-    "babel-core": "^6.23.1",
-    "babel-loader": "^6.3.2",
-    "babel-preset-react": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.26.1",
     "electron": "^1.4.15",
     "electron-reload": "^1.1.0",
-    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^0.9.0",
     "webpack": "^2.2.1"
   },
   "dependencies": {
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2"
   }
 }
