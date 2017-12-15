@@ -1,8 +1,13 @@
+
+
 import React from 'react'
 import {render} from 'react-dom'
-import App from './App.jsx'
+
+import store from './store'
+
+import Root from './components/Root.jsx'
 
 render(
-    <App/>,
+    <Root store={store} />,
     document.getElementById('app')
 )
